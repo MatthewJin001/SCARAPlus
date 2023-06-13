@@ -90,7 +90,11 @@ Demo ``mainSingle`` contains the calibration and evaluation of single-marker met
 
 ## Video
 Video record for the  calibration and pick-up is on https://www.youtube.com/watch?v=aI9nByyTc4Y
-<img src="caliConfig.png" width="55%">
+<img src="caliConfig.png" width="75%">
+
+
+<img src="zhalie.png" width="55%">
+
 
 
 **_Figure_**: Experimental configuration.
