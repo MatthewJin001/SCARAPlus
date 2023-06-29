@@ -1,5 +1,5 @@
 ## SCARA+ System: Bin Picking System Of Revolution-Symmetry Objects
-Jin, G., Yu, X., Chen, Y., Li, J. (2023), SCARA plus system for the bin picking of revolution-symmetry objects, submitted to IEEE Trans. Ind. Electron.
+Jin, G., Yu, X., Chen, Y., Li, J. (2023), SCARA+ System: Bin Picking System Of Revolution-Symmetry Objects, submitted to IEEE Trans. Ind. Electron.
 
 ## Overview
 Inspired by the fact that the DoF of the revolution-symmetry pose just matches that of an SCARA with an additional revolute joint, this article explores the possibility of adopting the configuration of an SCARA with an additional revolute joint and 3D camera to achieve the bin picking of lightweight revolution-symmetry objects. This configuration  is referred to as the ``SCARA plus system`` in the article. This repository mainly contains the codes for simulations and experiments in the articles.
