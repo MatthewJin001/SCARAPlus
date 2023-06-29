@@ -33,15 +33,15 @@ where
 
 ### Simulations
 
-File ``simu1`` is the forward Kinematics simulation;
-File ``simu2`` is the inverse Kinematics simulation;
-File ``simu3`` is the calibration simulations for singular and non-singular models;
-File ``simu4`` is the calibration simulations for different measurement numbers and different noises;
+* File ``simu1`` is the forward Kinematics simulation;
+* File ``simu2`` is the inverse Kinematics simulation;
+* File ``simu3`` is the calibration simulations for singular and non-singular models;
+* File ``simu4`` is the calibration simulations for different measurement numbers and different noises;
 
 ### Experiments
 
-File ``exp1`` is the calibration experiment;
-File ``caliData`` is the raw data of the calibration experiment.
+* File ``exp1`` is the calibration experiment;
+* File ``caliData`` is the raw data of the calibration experiment.
 
 ## Video
 Video record for the  calibration and pick-up is on http://youtu.be/aI9nByyTc4Y.
