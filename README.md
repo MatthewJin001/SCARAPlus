@@ -89,7 +89,7 @@ Demo ``mainSingle`` contains the calibration and evaluation of single-marker met
 
 
 ## Video
-Video record for the  calibration and pick-up is on https://www.youtube.com/watch?v=aI9nByyTc4Y
+Video record for the  calibration and pick-up is on http://youtu.be/aI9nByyTc4Y.
 
 <img src="pic/calibration.png" width="62%">
 
