@@ -16,21 +16,19 @@ MATLAB R2020a without any dependencies.
 ### Main Instruction
 To run the single-marker calibration, call
 ```
-[Rcf,tcf,pcf,Rit,tit,pit,rnticf,rntiit] = Alg(Ri,ti,ppi)
+[R,tw,pw,thetap,rnti,k_num] = Alg(Ri,ti,ppi)
 ```
 where
-* ``Ri`` (3x3xn): the rotation matrix of robot pose (n is the measurement number),
-* ``ti`` (3xn): the translation vector of robot pose,
-* ``ppi`` (3xnxm): the 3D observation of a marker (m is the marker number),
+* ``Ri`` (3x3xn): the rotation matrix of SCARA pose (n is the measurement number),
+* ``ti`` (3xn): the translation vector of SCARA pose,
+* ``ppi`` (3xn): the detected position of the axis point,
 
-* ``Rcf`` (3x3): the rotation matrix of the hand-eye parameter of closed-form solution,
-* ``tcf`` (3x1): the translation vector of the hand-eye parameter of closed-form solution (unit: mm),
-* ``pcf`` (3mx1): the marker position of closed-form solution (unit: mm), 
-* ``rnticf`` (1x1):  the runtime of closed-form solution (unit: seconds),
-* ``Rit`` (3x3): the rotation matrix of the hand-eye parameter of iterative solution,
-* ``tit`` (3x1): the translation vector of the hand-eye parameter of iterative solution (unit: mm),
-* ``pit`` (3mx1): the marker position of iterative solution (unit: mm), 
-* ``rnticf`` (1x1):  the runtime of closed-form solution of iterative solution (unit: seconds).
+* ``R`` (3x3): the rotation matrix of the hand-eye transforamtion,
+* ``tw`` (3x1): the generalized translation vector of the hand-eye transforamtion (unit: mm),
+* ``pw`` (2x1): the first two dimensional positions of the axis point (unit: mm), 
+* ``thetap`` (1x1):  the joint angle of DH+ parameters (unit: degree),
+* ``rnti`` (3x3): the runtime (unit: seconds).
+* ``k_num`` (3x1): the iterative number.
 
 
 ### Simulations
