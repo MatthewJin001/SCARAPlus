@@ -92,22 +92,13 @@ Demo ``mainSingle`` contains the calibration and evaluation of single-marker met
 Video record for the  calibration and pick-up is on https://www.youtube.com/watch?v=aI9nByyTc4Y
 
 <img src="pic/calibration.png" width="62%">
+
 **_Figure_**: The calibration configuration.
 
 
 <img src="pic/pick-up.png" width="60%">
-**_Figure_**: Snaps of three trials for bobbin picking using SCARA+ system. Note that $\theta_5$ is marked at the bottom left of each snap..
 
-
-
-**_Figure_**: Experimental configuration.
-
-## Reference
-* Sarabandi S, Porta J M, Thomas F. Hand-eye calibration made easy through a closed-form two-stage method[J]. IEEE Robotics and Automation Letters, 2022, 7(2): 3679-3686, https://github.com/MatthewJin001/Hand-Eye-Calibration
-* Wu J, Sun Y, Wang M, et al. Hand-eye calibration: 4-D procrustes analysis approach[J]. IEEE Transactions on Instrumentation and Measurement, 2019, 69(6): 2966-2981, https://github.com/MatthewJin001/hand_eye_SO4
-* Tabb A, Ahmad Yousef K M. Solving the robot-world hand-eye (s) calibration problem with iterative methods[J]. Machine Vision and Applications, 2017, 28(5-6): 569-590, https://github.com/MatthewJin001/RWHEC-Tabb-AhmadYousef
-* Ali I, Suominen O, Gotchev A, et al. Methods for simultaneous robot-world-hand–eye calibration: A comparative study[J]. Sensors, 2019, 19(12): 2837, https://github.com/MatthewJin001/RWHE-Calib
-
+**_Figure_**: Snaps of three trials for bobbin picking using SCARA+ system.
 
 ## Contact
 Gumin Jin, Department of Automation, Shanghai Jiao Tong University, Shanghai, jingumin@sjtu.edu.cn
