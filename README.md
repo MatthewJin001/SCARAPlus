@@ -23,7 +23,7 @@ where
 * ``ti`` (3xn): the translation vector of SCARA pose,
 * ``ppi`` (3xn): the detected position of the axis point,
 
-* ``R`` (3x3): the rotation matrix of the hand-eye transforamtion,
+* ``R`` (3x3): the rotation matrix of the hand-eye transformation,
 * ``tw`` (3x1): the generalized translation vector of the hand-eye transforamtion (unit: mm),
 * ``pw`` (2x1): the first two dimensional positions of the axis point (unit: mm), 
 * ``thetap`` (1x1):  the joint angle of DH+ parameters (unit: degree),
