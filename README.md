@@ -1,4 +1,4 @@
-## SCARA plus system for the bin picking of revolution-symmetry objects
+## SCARA+ System: Bin Picking System Of Revolution-Symmetry Objects
 Jin, G., Yu, X., Chen, Y., Li, J. (2023), SCARA plus system for the bin picking of revolution-symmetry objects, submitted to IEEE Trans. Ind. Electron.
 
 ## Overview
