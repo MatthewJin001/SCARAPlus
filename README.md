@@ -4,7 +4,7 @@ Jin, G., Yu, X., Chen, Y., Li, J. (2023), SCARA+ System: Bin Picking System Of R
 ## Overview
 Inspired by the fact that the DoF (degree of freedom) of the RS (revolution-symmetry) pose is exactly the same as adding one DoF to SCARA, we develop a SCARA+ configuration of a SCARA with an additional revolute joint, and explore the possibility of integrating it with a 3D camera to achieve the bin picking of RS objects. To this end, we first discuss the SCARA+ kinematics with the modified DH (Denavit-Hartenberg) parameters. Then, to calibrate the additional DH and the hand-eye parameters in the kinematics, we construct an axis-point model and provide an iterative solution without singularity. Finally, comprehensive experiments verify the superiority of the SCARA+ system. When compared to the state-of-the-art systems, our system achieves a significant efficiency improvement with relatively lower costs. It has also been successfully applied in the spinning industry for practical bobbin loading. This repository mainly contains the codes for simulations and experiments in the article.
 
-<img src="pic/configuration.png" width="75%">
+<img src="pic/configuration.png" width="70%">
 
 **_Figure_**: Configuration of SCARA+ system.
 
@@ -91,10 +91,12 @@ Demo ``mainSingle`` contains the calibration and evaluation of single-marker met
 ## Video
 Video record for the  calibration and pick-up is on https://www.youtube.com/watch?v=aI9nByyTc4Y
 
-<img src="pic/calibration.png" width="60%">
+<img src="pic/calibration.png" width="62%">
+**_Figure_**: The calibration configuration.
 
 
 <img src="pic/pick-up.png" width="60%">
+**_Figure_**: Snaps of three trials for bobbin picking using SCARA+ system. Note that $\theta_5$ is marked at the bottom left of each snap..
 
 
 
